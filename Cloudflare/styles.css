@@ -1,0 +1,158 @@
+ 
+.social{
+    color: blue;
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    align-items: center;
+}
+
+.top{
+  text-align:centre;
+}
+
+
+.centreblog{
+  text-align: center;
+}
+
+*+*{
+	color:#1D9AF2;
+	font-family: 'Lato', sans-serif;
+}
+
+.top{
+  background: linear-gradient(45deg, blue, red);
+	color: white;
+  border-radius: 20px;  
+}
+
+.maths{
+  width: auto;
+  height: auto;
+}
+
+.centreblog{
+  width: 700px;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  
+}
+
+.maths{
+    padding: 20px;
+    background: #292D3E;
+    color: #fff;
+    border-radius: 10px;
+    border: solid 2px ;
+    margin: 10px;
+}
+
+.maths {
+  color: #1D9AF2;
+background-color: #292D3E;
+border: 1px solid #1D9AF2;
+border-radius: 4px;
+padding: 0 15px;
+font-size:14px;
+transition: all 0.2s ease-out;
+}
+
+.maths:hover{
+box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+transform: translateX(-3px);
+}
+
+.electric{
+    padding: 20px;
+    background: #292D3E;
+    color: #fff;
+    border-radius: 10px;
+    border: solid 2px ;
+    margin: 10px;
+}
+
+.electric {
+  color: #1D9AF2;
+background-color: #292D3E;
+border: 1px solid #1D9AF2;
+border-radius: 4px;
+padding: 0 15px;
+font-size:14px;
+transition: all 0.2s ease-out;
+}
+
+.electric:hover{
+box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+transform: translateX(-3px);
+}
+
+
+.Social{
+    padding: 20px;
+    background: #292D3E;
+    color: #fff;
+    border-radius: 10px;
+    border: solid 2px ;
+    margin: 10px;
+}
+
+.Social {
+  color: #1D9AF2;
+background-color: #292D3E;
+border: 1px solid #1D9AF2;
+border-radius: 4px;
+padding: 0 15px;
+font-size:14px;
+transition: all 0.2s ease-out;
+}
+
+.Social:hover{
+box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+transform: translateX(-3px);
+}
+
+.button {
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+    align-self:center ;
+}
+
+button:hover {
+    transform: scale(0.8); 
+}
+
+.form_hidden{
+	display:none;
+}
+
+.form_show{
+	display:block;
+	z-index: 10;
+}
+
+@media only screen and (max-width: 420px) {
+*+* {
+  box-sizing: border-box;
+  float: left;
+}
+.centerblog{
+  box-sizing: border-box;
+  float: left;
+  height: auto;
+  height:auto;
+}
+
+.maths2{
+  width:200px;
+  height:auto;
+}
+}

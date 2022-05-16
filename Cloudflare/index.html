@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techin-it</title>
+    <script src="https://kit.fontawesome.com/64a32e4c11.js" crossorigin="anonymous"></script>
+		<link href="styles.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<html>
+  <body style="background-color:#292D3E">
+
+    
+        <header>
+          <div class="social1" color:white;>
+              <h1>email: <a="09holksm01@LAT16"></a> GitHub: <a SmaranHolkar></a> 
+							
+							</h1>
+					
+          </div>    
+        </header>
+
+		<!-- 
+        This is the description below, modify it to be yourself. <br> tag is
+        new line so you can add that
+        ----->
+        <p>
+        <div class="top" color:white;>
+          <h1> Tech-Vision</h1>
+          <p>As someone who is invested in the world of technology<br>
+          I would want to share some of my thoughts and answers.</p>
+          <script src=""></script>
+          </p>
+        </div>
+        
+        <a>
+        <div class="centreblog">
+          <div class="maths" margin:10%>
+          <img src="images/maths2.jpg" alt="maths2" width="400px" height="auto" padding:10px; position:centre;>
+          <h1>How much maths does computer science need? </h1>
+            <p>Computing does need maths.<span id="dots">...</span><span class="more" id="more"> which is good, however the batteries are a concern when it comes to its end, this is beacuse after time the battries can deteriate and loose its cappacity over time. The problem is the storage of these battteries when they are no longer in use and the materials that are used in them to make them, which one them is lithium.</span></p>
+            <button class="button" span onclick="display_more_1()" id="myBtn1">Read more</button> 
+					</div>
+        <div class="electric">
+          <img src="images/electric_car.jpg" alt="cars" width="400px" height="auto" margin:10px;>
+          <h2>Are electric cars actully good for the environment</h2>
+            <p>As we know that electric cars are becoming more popular as we it is better as they don't release ant chemicals in the air<span id="dots1">...</span><span class="more1" id="more1"> which is good, however the batteries are a concern when it comes to its end, this is beacuse after time the battries can deteriate and loose its cappacity over time. The problem is the storage of these battteries when they are no longer in use and the materials that are used in them to make them, which one them is lithium.</span></p>
+            <button class="button" span onclick="display_more_2()" id="myBtn2" span>Read more</button>
+        </div>
+        <div class="Social">
+          <img src="images/electric_car.jpg" alt="Social media" width="400px" height="auto">
+          <h2>Are electric cars actully good for the environment? </h2>
+            <p>As we know that electric cars are becoming more popular as we it is better as they don't release ant chemicals in the air<span id="dots2">...</span><span class="more1" id="more2"> which is good, however the batteries are a concern when it comes to its end, this is beacuse after time the battries can deteriate and loose its cappacity over time. The problem is the storage of these battteries when they are no longer in use and the materials that are used in them to make them, which one them is lithium.</span></p>
+            <button class="button" span onclick="display_more_3()" id="myBtn3" span>Read more</button>     
+        </div>
+				
+  <script> 
+    function display_more_1() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn1");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  };
+
+//
+ function display_more_2() {
+    var dots = document.getElementById("dots1");
+    var moreText = document.getElementById("more1");
+    var btnText = document.getElementById("myBtn2");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  };
+  
+  function display_more_3() {
+    var dots = document.getElementById("dots2");
+    var moreText = document.getElementById("more2");
+    var btnText = document.getElementById("myBtn3");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  };
+
+	display_more_1();
+  display_more_2();
+  display_more_3();
+	
+  display_more_1();
+  display_more_2();
+  display_more_3();
+
+// add css for this - dropdown menu?
+document.getElementById("login_acctivation").addEventListener("click", () =>{
+	document.getElementById("login").className="form_show" 
+} )
+
+document.getElementById("form").addEventListener("submit", (e) => {
+	const username = document.getElementById("username").value
+	const password = document.getElementById("password").value
+	console.log(username, password)
+	e.preventDefault();
+});
+  </script>
+<!-- sign up -->
+</body>
+<script src="script.js"></script>
+</html>
